@@ -3,6 +3,8 @@ Tracking MyCode From May 2022 Class
 Learning how to version control projects with git
 Still Learning
 
+Adding additional info to test
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine
