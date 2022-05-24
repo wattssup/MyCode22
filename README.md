@@ -1,5 +1,6 @@
 # MyCode22
 Tracking MyCode From May 2022 Class
+Learning how to version control projects with git
 
 ## Getting Started
 
