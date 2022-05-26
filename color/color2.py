@@ -40,6 +40,9 @@ def main():
     # print 'white string' in white
     print(crayons.white('white string', bold=True))
 
+    # Print My Name in 2 Colors
+    print(f"{crayons.red('Wallace ')} Gregory  {crayons.blue('Watt')}")
+
 # this condition is only true if our script is run directly
 # it is NOT true if our code is imported into another script
 if __name__ == "__main__":
