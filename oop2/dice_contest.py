@@ -16,6 +16,7 @@ def main():
     # track scores for both players
     swapper_score = 0
     loaded_dice_score = 0
+    tie_score = 0
 
     # how many games we want to run
     number_of_games = 100000
@@ -39,6 +40,7 @@ def main():
         #print("Cheater 2 rolled" + str(loaded_dice.get_dice()))
         if sum(swapper.get_dice()) == sum(loaded_dice.get_dice()):
             #print("Draw!")
+            tie_score+= 1
             pass
         elif sum(swapper.get_dice()) > sum(loaded_dice.get_dice()):
             #print("Dice swapper wins!")
@@ -55,6 +57,7 @@ def main():
     print("------------")
     print(f"Swapper won: {swapper_score}")
     print(f"Loaded dice won: {loaded_dice_score}")
+    print(f"There were this many Ties: {tie_score}")
 
     # determine the winner
     if swapper_score == loaded_dice_score:
